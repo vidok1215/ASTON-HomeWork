@@ -1,3 +1,5 @@
+import static HomeWork_1.PointNine.isLeapYear;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -11,5 +13,8 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        int year = 2024;
+        boolean isLeap = isLeapYear(year);
+        System.out.println(year + " is leap year: " + isLeap); // Выведет "2024 is leap year: true"
     }
 }
